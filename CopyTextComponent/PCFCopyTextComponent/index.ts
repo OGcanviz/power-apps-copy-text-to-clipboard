@@ -40,7 +40,7 @@ export class PCFCopyTextComponent implements ComponentFramework.StandardControl<
 
 		// Creating the label for the control and setting the relevant values.
 		this.label = document.createElement("input");
-		this.label.setAttribute("type", "label");
+		this.label.setAttribute("type", "text");
 		this.label.addEventListener("blur", this.onInputBlur.bind(this));
 
 		//Create a button to increment the value by 1.
